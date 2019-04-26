@@ -6,4 +6,12 @@
 
 import subprocess
 
+# 清除新建文件
+subprocess.call("git clean -f")
+
+# 还原修改文件
+subprocess.call("git cheackout .")
+
+# 拉去
+subprocess.call("git fetch")
 subprocess.call("git pull")
