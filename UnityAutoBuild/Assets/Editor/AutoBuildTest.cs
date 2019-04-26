@@ -26,6 +26,14 @@ public class AutoBuildTest : MonoBehaviour
     static void CMDTest()
     {
         System.Console.WriteLine("Console CMDTest!");
-        Debug.Log("CMDTest!");
+        // Debug.Log("CMDTest!");
+    }
+    static void CMDArgsTest()
+    {
+        var args = System.Environment.GetCommandLineArgs();
+        for (int i = 0; i < args.Length; i++)
+        {
+            Debug.Log("args " + i + " " + args[i]);
+        }
     }
 }

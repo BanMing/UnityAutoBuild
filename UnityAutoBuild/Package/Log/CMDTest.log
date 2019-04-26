@@ -1,0 +1,425 @@
+
+LICENSE SYSTEM [2019426 17:7:31] No start/stop license dates set
+
+LICENSE SYSTEM [2019426 17:7:31] Next license update check is after 2027-08-23T00:17:35
+
+Built from '2017.3/patch-release' branch; Version is '2017.3.1p4 (7f25373c3e03) revision 8332599'; Using compiler version '160040219'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'zh' Physical Memory: 16317 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+[Package Manager] Server::Start -- Port 56195 was selected
+
+ COMMAND LINE ARGUMENTS:
+C:/Program Files/Unity/Editor/Unity.exe
+-batchmode
+-projectPath
+D:/UnityAutoBuild/UnityAutoBuild
+-executeMethod
+AutoBuildTest.BuildAndroidTest
+-quit
+-logFile
+Package/Log/CMDTest.log
+Successfully changed project path to: D:/UnityAutoBuild/UnityAutoBuild
+D:/UnityAutoBuild/UnityAutoBuild
+Loading GUID <-> Path mappings...0.000060 seconds
+Loading Asset Database...0.004731 seconds
+Audio: FMOD Profiler initialized on port 54901
+AssetDatabase consistency checks...0.027725 seconds
+Refreshing native plugins compatible for Editor in 6.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+DisplayProgressbar: Unity Package Manager
+[Package Manager] Resolving 4 packages:
+[Package Manager]  * Package :  com.unity.ads@2.0.3
+    (location: C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.ads@2.0.3)
+[Package Manager]  * Package :  com.unity.analytics@2.0.13
+    (location: C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.analytics@2.0.13)
+[Package Manager]  * Package :  com.unity.purchasing@0.0.19
+    (location: C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.purchasing@0.0.19)
+[Package Manager]  * Package :  com.unity.standardevents@1.0.10
+    (location: C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.standardevents@1.0.10)
+[Package Manager] Resolve completed
+Initialize engine version: 2017.3.1p4 (7f25373c3e03)
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon R7 200 Series (ID=0x6613)
+    Vendor:   ATI
+    VRAM:     1005 MB
+    Driver:   22.19.162.4
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/Mono/lib/mono/2.0'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/Mono/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56104
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 0.37 ms, found 4 plugins.
+Initializing Unity.PackageManager (PackageManager) v2017.3.1 for Unity v2017.3.1p4
+Registering precompiled unity dll's ...
+Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005640 seconds.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 2.09 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.759 seconds
+Registering platform support modules:
+Registered platform support modules in: 0.0745048s.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Native extension for Android target not found
+Begin MonoManager ReloadAssembly
+Registering precompiled user dll's ...
+Registered in 0.013167 seconds.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.52 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.606 seconds
+Initializing Unity.PackageManager (PackageManager) v2017.3.1 for Unity v2017.3.1p4
+Registering platform support modules:
+Registered platform support modules in: 0.047725s.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Native extension for Android target not found
+Validating Project structure ... 0.000179 seconds.
+Refresh: detecting if any assets need to be imported or removed ... 
+Hashing assets ... 0.000 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.001 MB)
+  hash: 0.000 seconds
+----- Compute hash(es) for 1 asset(s).
+----- Asset named Assets/Editor/AutoBuildTest.cs is skipped as no actual change.
+
+Refresh: elapses 0.050423 seconds (Nothing changed)
+Refreshing native plugins compatible for Editor in 0.39 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.50 ms.
+
+----- Total AssetImport time: 0.046034s, AssetImport time: 0.000000s, Asset hashing: 0.000519s [1.4 KB, 2.654986 mb/s]
+
+Warming cache for 133 main assets: 0.000403 seconds elapsed
+Initializing Unity extensions:
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'  GUID: 12fd8a0055b84bb59e84c9835a37e333
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'  GUID: f70555f144d8491a825f0804e09c671c
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'  GUID: f5f67c52d1564df4a8936ccd202a3bd8
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'  GUID: 844f815391db42d49455cbf1a7bfc434
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'  GUID: dc443db3e92b4983b9738c1131f555cb
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll'  GUID: ed7343f30e3843b3afda8f8b02669cea
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll'  GUID: 4a3ecb1425d14502837abea459cf2b70
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'  GUID: 5f32cd94baa94578a686d4b9d6b660f7
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll'  GUID: f7b54ff4a43d4fcf81b4538b678e0bcc
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll'  GUID: b5da970776034f77a070d99423d68791
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll'  GUID: adebbd281f1a4ef3a30be7f21937e02f
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'  GUID: 870353891bb340e2b2a9c8707e7419ba
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'  GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll'  GUID: ead147da21254ff9a0a936bdd75e1680
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Runtime/UnityEngine.GoogleAudioSpatializer.dll'  GUID: e4f4cf1b9b434137a499903a7a1d651a
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'  GUID: 4ba2329b63d54f0187bcaa12486b1b0f
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'  GUID: 1c6d1fbb51834b64847b1b73a75bfc77
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll'  GUID: 3a84de5cd0624681b6b6dcd8921d912a
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'  GUID: 80a3616ca19596e4da0f10f14d241e9f
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll'  GUID: c768acbc9cf24d398488bb4c93b91288
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll'  GUID: b8a0574e92bd43a59e19d6c3c6ae54c7
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
+Unloading 103 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 28.3 MB.
+System memory in use after: 28.3 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 669.
+Total: 1.324950 ms (FindLiveObjects: 0.511629 ms CreateObjectMapping: 0.015240 ms MarkObjects: 0.776619 ms  DeleteObjects: 0.018972 ms)
+
+DisplayProgressbar: Checking prerequisutes
+Android PostProcess task "Checking prerequisutes" took 3.7805 ms
+DisplayProgressbar: Detecting Android SDK
+ Observed package id 'ndk-bundle' in inconsistent location 'G:\AndroidSDK\ndk-bundle-new' (Expected 'G:\AndroidSDK\ndk-bundle')
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+UnityEditor.Android.AndroidSDKTools:DetectErrorsAndWarnings(String, String)
+UnityEditor.Android.AndroidSDKTools:RunAndroidSdkTool(String, String, Boolean, WaitingForProcessToExit, String)
+UnityEditor.Android.AndroidSDKTools:ListTargetPlatforms(WaitingForProcessToExit)
+UnityEditor.Android.AndroidSDKTools:GetTopAndroidPlatformAvailable(WaitingForProcessToExit)
+UnityEditor.Android.PostProcessor.Tasks.SDKPlatformDetector:GetVersion(AndroidSDKTools)
+UnityEditor.Android.PostProcessor.Tasks.SDKComponentDetector:Detect(AndroidSDKTools, Version, ProgressHandler)
+UnityEditor.Android.PostProcessor.Tasks.CheckAndroidSDK:EnsureSDKComponentVersion(Version, SDKComponentDetector)
+UnityEditor.Android.PostProcessor.Tasks.CheckAndroidSDK:EnsureSDKComponentVersion(Int32, SDKComponentDetector)
+UnityEditor.Android.PostProcessor.Tasks.CheckAndroidSDK:Execute(PostProcessorContext)
+UnityEditor.Android.PostProcessor.PostProcessRunner:RunAllTasks(PostProcessorContext)
+UnityEditor.Android.PostProcessAndroidPlayer:PrepareForBuild(BuildOptions, BuildTarget)
+UnityEditor.Android.AndroidBuildPostprocessor:PrepareForBuild(BuildOptions, BuildTarget)
+UnityEditor.PostprocessBuildPlayer:PrepareForBuild(BuildOptions, BuildTargetGroup, BuildTarget) (at C:\buildslave\unity\build\Editor\Mono\BuildPipeline\PostprocessBuildPlayer.cs:87)
+UnityEditor.BuildPipeline:BuildPlayerInternalNoCheck(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions, Boolean)
+UnityEditor.BuildPipeline:BuildPlayerInternal(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\artifacts\generated\common\editor\BuildPipelineBindings.gen.cs:337)
+UnityEditor.BuildPipeline:BuildPlayer(String[], String, String, BuildTargetGroup, BuildTarget, BuildOptions) (at C:\buildslave\unity\build\artifacts\generated\common\editor\BuildPipelineBindings.gen.cs:234)
+UnityEditor.BuildPipeline:BuildPlayer(BuildPlayerOptions) (at C:\buildslave\unity\build\artifacts\generated\common\editor\BuildPipelineBindings.gen.cs:212)
+AutoBuildTest:BuildAndroidTest() (at Assets\Editor\AutoBuildTest.cs:15)
+ 
+(Filename: Assets/Editor/AutoBuildTest.cs Line: 15)
+
+AndroidSDKTools:
+
+	root          : G:/AndroidSDK
+	tools         : G:/AndroidSDK\tools
+	platform-tools: G:/AndroidSDK\platform-tools
+	build-tools   : G:\AndroidSDK\build-tools\28.0.3
+
+	adb      : G:/AndroidSDK\platform-tools\adb.exe
+	aapt     : G:\AndroidSDK\build-tools\28.0.3\aapt.exe
+	zipalign : G:\AndroidSDK\build-tools\28.0.3\zipalign.exe
+
+AndroidJavaTools:
+	java     : C:/Program Files/Java/jdk1.8.0_131\bin\java.exe
+
+Android PostProcess task "Detecting Android SDK" took 2884.914 ms
+Android PostProcess task "Detect Android NDK" took 0.107 ms
+Android PostProcess task "Trying to find a suitable Android device" took 0.099 ms
+BuildPlayer: start building target 13
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbols will be read from Temp\Assembly-CSharp.dll.mdb
+Script Module: Assembly-CSharp.dll
+Pass: 0 took 4 milliseconds
+Pass: 1 took 28 milliseconds
+Refreshing native plugins compatible for Editor in 0.33 ms, found 4 plugins.
+DisplayProgressbar: Building Player
+
+Packing sprites:
+[     45 MB ]- Skipping packing - Sprite Packer (Legacy) is off.
+[     45 MB ]WARNING: Shader Unsupported: 'Hidden/BlitToDepth' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth_MSAA' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth_MSAA' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Pass 'RGBAEXTERNAL_TO_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeAndroid' - Setting to default shader.
+Opening scene 'Assets/Scene/dome.unity'
+Load scene 'Assets/Scene/dome.unity' time: 0.019283 ms 
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2694 -> priority: 1 
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 46.1 MB.
+System memory in use after: 46.0 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2713.
+Total: 12.667582 ms (FindLiveObjects: 0.686423 ms CreateObjectMapping: 0.020838 ms MarkObjects: 6.921154 ms  DeleteObjects: 5.038543 ms)
+
+[00:00:00] Enlighten: Precompute started.
+[PathTracer] Issuing atlassing job. Atlas hash: bc06a9703e5ae257241f86e6e5e9cb62, width: 1024, height: 1024
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+[00:00:00] Enlighten: Finished 1 Layout Systems job (0.00s execute, 0.00s integrate, 0.16s wallclock)
+[00:00:00] Enlighten: Finished 1 Tetrahedralize Probes job (0.00s execute, 0.00s integrate, 0.01s wallclock)
+[00:00:00] Enlighten: Precompute took 0.169954 seconds.
+Enlighten scene contents:   0 geometries.   0 instances.   0 systems.   0 probe groups.   0 cube maps. Scene is up-to-date.
+[00:00:00] Enlighten: Bake started.
+[PathTracer][LP] Issuing deduplication and tetrahedralization job. Combined: 80257199cfa681a16be5e09b3c2208f4, tetrahedralized probes: 00000000000000000000000000000000, non-tetrahedralized probes: 00000000000000000000000000000000, dependencies: 00000000000000000000000000000000
+[PathTracer][LP] Integrating deduplicated and tetrahedralized probes for hash 80257199cfa681a16be5e09b3c2208f4.
+[00:00:00] Enlighten: Finished 1 Bake Runtime job (0.05s execute, 0.00s integrate, 0.06s wallclock)
+[00:00:00] Enlighten: Bake took 0.060563 seconds.
+[PathTracer] Common reset.
+[PathTracer] Lightmap reset.
+[PathTracer][LP] Light probes reset.
+[PathTracer] building lightmap data asset.
+[00:00:00] Enlighten: Reflection Probes started.
+[00:00:00] Enlighten: Finished 1 Ambient Probes job (0.00s execute, 0.00s integrate, 0.03s wallclock)
+[00:00:00] Enlighten: Finished 1 Reflection Probes job (0.00s execute, 0.01s integrate, 0.02s wallclock)
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth_MSAA' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth_MSAA' - Setting to default shader.
+
+
+Mono dependencies included in the build
+Dependency assembly - Mono.Security.dll
+Dependency assembly - System.Core.dll
+Dependency assembly - System.dll
+Dependency assembly - mscorlib.dll
+Dependency assembly - UnityEngine.UI.dll
+Dependency assembly - UnityEngine.Networking.dll
+Dependency assembly - UnityEngine.Timeline.dll
+Dependency assembly - UnityEngine.SpatialTracking.dll
+Dependency assembly - Assembly-CSharp.dll
+Dependency assembly - UnityEngine.StandardEvents.dll
+
+DisplayProgressbar: Fetching assembly references
+Unloading 12 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 48.6 MB.
+System memory in use after: 48.5 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2678.
+Total: 12.582984 ms (FindLiveObjects: 0.672116 ms CreateObjectMapping: 0.020216 ms MarkObjects: 6.782128 ms  DeleteObjects: 5.108212 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 47.9 MB.
+System memory in use after: 48.0 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2690.
+Total: 8.015949 ms (FindLiveObjects: 0.748939 ms CreateObjectMapping: 0.023637 ms MarkObjects: 7.236530 ms  DeleteObjects: 0.006220 ms)
+
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth_MSAA' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth_MSAA' - Setting to default shader.
+WARNING: Shader Unsupported: 'VR/SpatialMapping/Wireframe' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'VR/SpatialMapping/Wireframe' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VR/BlitTexArraySliceToDepth_MSAA' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VR/BlitTexArraySliceToDepth_MSAA' - Setting to default shader.
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'AR/TangoARRender' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'FLIP_RGBARECT_TO_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 94.0 MB.
+System memory in use after: 48.4 MB.
+
+Unloading 145 unused Assets to reduce memory usage. Loaded Objects now: 2677.
+Total: 75.127790 ms (FindLiveObjects: 0.713171 ms CreateObjectMapping: 0.036389 ms MarkObjects: 7.042452 ms  DeleteObjects: 67.335154 ms)
+
+DisplayProgressbar: Building Player
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth' - Setting to default shader.
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth_MSAA' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/BlitToDepth_MSAA' - Setting to default shader.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+DisplayProgressbar: Creating staging area
+Android PostProcess task "Creating staging area" took 4.2317 ms
+DisplayProgressbar: Generating Build Id
+Android PostProcess task "Generating Build Id" took 0.5368 ms
+DisplayProgressbar: Preparing Unity resources
+Android PostProcess task "Preparing Unity resources" took 46.3375 ms
+DisplayProgressbar: Splitting assets
+Android PostProcess task "Splitting assets" took 3.8337 ms
+Android PostProcess task "Processing OBB assets" took 0.0815 ms
+DisplayProgressbar: Preparing Unity libraries
+Android PostProcess task "Preparing Unity libraries" took 279.9234 ms
+DisplayProgressbar: Processing resources
+Android PostProcess task "Processing resources" took 0.2547 ms
+DisplayProgressbar: Preparing APK resources
+Android PostProcess task "Preparing APK resources" took 9.1652 ms
+DisplayProgressbar: Processing plugins
+Android PostProcess task "Processing plugins" took 48.6141 ms
+DisplayProgressbar: Processing Android libraries
+Android PostProcess task "Processing Android libraries" took 1.5707 ms
+DisplayProgressbar: Creating Android manifest
+DisplayProgressbar: Fetching assembly references
+Android PostProcess task "Creating Android manifest" took 766.1347 ms
+DisplayProgressbar: Compiling resources
+Android PostProcess task "Compiling resources" took 2.4732 ms
+Android PostProcess task "IL2CPP" took 0.4308 ms
+Android PostProcess task "Build native Unity binary" took 0.1402 ms
+Android PostProcess task "Zipping symbols" took 0.2986 ms
+Android PostProcess task "Performance Reporting Symbol Upload" took 0.191 ms
+DisplayProgressbar: Preparing streaming assets
+Android PostProcess task "Preparing streaming assets" took 1.0313 ms
+Android PostProcess task "fastzip" took 0.0731 ms
+Android PostProcess task "AAPT: Compiling all assets into one archive" took 0.2419 ms
+DisplayProgressbar: Building Gradle project
+Android PostProcess task "Building Gradle project" took 23197.6503 ms
+DisplayProgressbar: Moving output package
+Android PostProcess task "Moving output package" took 3.038 ms
+DisplayProgressbar: Building Player
+
+-------------------------------------------------------------------------------
+Build Report
+Uncompressed usage by category:
+Textures      5.4 kb	 0.0% 
+Meshes        0.0 kb	 0.0% 
+Animations    0.0 kb	 0.0% 
+Sounds        0.0 kb	 0.0% 
+Shaders       13.7 kb	 0.1% 
+Other Assets  1.8 kb	 0.0% 
+Levels        71.9 kb	 0.3% 
+Scripts       642.7 kb	 2.5% 
+Included DLLs 3.9 mb	 15.4% 
+File headers  9.1 kb	 0.0% 
+Complete size 25.6 mb	 100.0% 
+
+Used Assets and files from the Resources folder, sorted by uncompressed size:
+ 20.2 kb	 0.1% Resources/unity_builtin_extra
+ 4.1 kb	 0.0% C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll
+ 4.1 kb	 0.0% C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll
+ 1.8 kb	 0.0% C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll
+ 1.8 kb	 0.0% C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll
+ 1.5 kb	 0.0% C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll
+ 1.5 kb	 0.0% C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll
+ 0.7 kb	 0.0% C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll
+ 0.7 kb	 0.0% C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll
+ 0.6 kb	 0.0% C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll
+ 0.6 kb	 0.0% C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Runtime/UnityEngine.GoogleAudioSpatializer.dll
+ 0.4 kb	 0.0% C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll
+ 0.3 kb	 0.0% Packages/com.unity.analytics/UnityEngine.Analytics.dll
+ 0.3 kb	 0.0% Packages/com.unity.ads/UnityEngine.Advertisements.dll
+ 0.1 kb	 0.0% C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll
+ 0.1 kb	 0.0% C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll
+ 0.1 kb	 0.0% Assets/Scripts/Dome.cs
+-------------------------------------------------------------------------------
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 48.5 MB.
+System memory in use after: 48.4 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2692.
+Total: 16.235928 ms (FindLiveObjects: 0.871481 ms CreateObjectMapping: 0.029858 ms MarkObjects: 8.013460 ms  DeleteObjects: 7.319883 ms)
+
+DisplayProgressNotification: Build Successful
+Load scene 'Temp/__Backupscenes/0.backup' time: 0.022393 ms 
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+[00:00:00] Enlighten: Reflection Probes took 28.914396 seconds. Cancelled, so not done yet.
+System memory in use before: 48.1 MB.
+System memory in use after: 48.2 MB.
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 2682.
+Total: 8.473461 ms (FindLiveObjects: 0.748005 ms CreateObjectMapping: 0.020216 ms MarkObjects: 7.694664 ms  DeleteObjects: 0.009019 ms)
+
+
+*** Completed 'Build.Player.AndroidPlayer' in 34 seconds (34264 ms)
+
+build success!
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AutoBuildTest:BuildAndroidTest() (at Assets\Editor\AutoBuildTest.cs:22)
+ 
+(Filename: Assets/Editor/AutoBuildTest.cs Line: 22)
+
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbols will be read from Temp\Assembly-CSharp.dll.mdb
+Script Module: Assembly-CSharp.dll
+Pass: 0 took 3 milliseconds
+Pass: 1 took 16 milliseconds
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+Reloading assemblies after script compilation.
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 1.52 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.45 ms.
+Mono: successfully reloaded assembly
+Refreshing native plugins compatible for Editor in 0.43 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.56 ms.
+
+----- Total AssetImport time: 0.100168s, AssetImport time: 0.000000s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+- Completed reload, in  1.016 seconds
+Initializing Unity.PackageManager (PackageManager) v2017.3.1 for Unity v2017.3.1p4
+Registering platform support modules:
+Registered platform support modules in: 0.0367363s.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Native extension for Android target not found
+Batchmode quit successfully invoked - shutting down!
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.007065 seconds (Nothing changed)
+Updating ProjectSettings/ProjectSettings.asset - GUID: 00000000000000004000000000000000...
+ done. [Time: 30.290664 ms] 
+Refreshing native plugins compatible for Editor in 0.39 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.51 ms.
+
+----- Total AssetImport time: 0.100681s, AssetImport time: 0.054161s, Asset hashing: 0.000000s [0 B, 0.000000 mb/s]
+
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.006467 seconds (Nothing changed)
+[Package Manager] Server::Kill -- Server was shutdown
+Cleanup mono
+Exiting batchmode successfully now!

@@ -24,12 +24,14 @@ print("begin test")
 # subprocess.call(UNITYPATH+" -projectPath "+PROJECTPATH)
 
 # 调用unity中方法
+subprocess.call(
+    UNITYPATH+" -batchmode -projectPath "+PROJECTPATH+" -executeMethod AutoBuildTest.CMDTest -quit -logFile "+PROJECTPATH+"/AutoBuildTool/Log/CMDTest1.log")
 # subprocess.call(
-#     UNITYPATH+" -batchmode -projectPath "+PROJECTPATH+" -executeMethod AutoBuildTest.CMDTest -quit -logFile AutoBuildTool/Log/CMDTest.log")
+#     UNITYPATH+" -batchmode -projectPath "+PROJECTPATH+" -executeMethod AutoBuildTest.CMDArgsTest sss -quit -logFile AutoBuildTool/Log/CMDTest.log")
 
 
 # 调用unity中自动打包
 # subprocess.call(
-#     UNITYPATH+" -batchmode -projectPath "+PROJECTPATH+" -executeMethod AutoBuildTest.BuildAndroidTest -quit")
+#     UNITYPATH+" -batchmode -projectPath "+PROJECTPATH+" -executeMethod AutoBuildTest.BuildAndroidTest -quit -logFile Package/Log/CMDTest.log")
 
 print("end test")

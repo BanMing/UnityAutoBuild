@@ -1,0 +1,244 @@
+
+LICENSE SYSTEM [2019426 17:1:51] No start/stop license dates set
+
+LICENSE SYSTEM [2019426 17:1:51] Next license update check is after 2027-08-23T00:17:35
+
+Built from '2017.3/patch-release' branch; Version is '2017.3.1p4 (7f25373c3e03) revision 8332599'; Using compiler version '160040219'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'zh' Physical Memory: 16317 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+[Package Manager] Server::Start -- Port 59386 was selected
+
+ COMMAND LINE ARGUMENTS:
+C:/Program Files/Unity/Editor/Unity.exe
+-batchmode
+-projectPath
+D:/UnityAutoBuild/UnityAutoBuild
+-executeMethod
+AutoBuildTest.CMDArgsTest
+sss
+-quit
+-logFile
+AutoBuildTool/Log/CMDTest.log
+Successfully changed project path to: D:/UnityAutoBuild/UnityAutoBuild
+D:/UnityAutoBuild/UnityAutoBuild
+Loading GUID <-> Path mappings...0.000059 seconds
+Loading Asset Database...0.004952 seconds
+Audio: FMOD Profiler initialized on port 54900
+AssetDatabase consistency checks...0.028545 seconds
+Refreshing native plugins compatible for Editor in 6.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+DisplayProgressbar: Unity Package Manager
+[Package Manager] Resolving 4 packages:
+[Package Manager]  * Package :  com.unity.ads@2.0.3
+    (location: C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.ads@2.0.3)
+[Package Manager]  * Package :  com.unity.analytics@2.0.13
+    (location: C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.analytics@2.0.13)
+[Package Manager]  * Package :  com.unity.purchasing@0.0.19
+    (location: C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.purchasing@0.0.19)
+[Package Manager]  * Package :  com.unity.standardevents@1.0.10
+    (location: C:\ProgramData\Unity\cache\packages\packages.unity.com\com.unity.standardevents@1.0.10)
+[Package Manager] Resolve completed
+Initialize engine version: 2017.3.1p4 (7f25373c3e03)
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon R7 200 Series (ID=0x6613)
+    Vendor:   ATI
+    VRAM:     1005 MB
+    Driver:   22.19.162.4
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/Mono/lib/mono/2.0'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/Mono/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56992
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 0.34 ms, found 4 plugins.
+Initializing Unity.PackageManager (PackageManager) v2017.3.1 for Unity v2017.3.1p4
+Registering precompiled unity dll's ...
+Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEngines\WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005288 seconds.
+Refreshing native plugins compatible for Editor in 0.43 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 2.54 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.798 seconds
+Registering platform support modules:
+Registered platform support modules in: 0.0844957s.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Native extension for Android target not found
+Begin MonoManager ReloadAssembly
+Registering precompiled user dll's ...
+Registered in 0.013559 seconds.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.52 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.635 seconds
+Initializing Unity.PackageManager (PackageManager) v2017.3.1 for Unity v2017.3.1p4
+Registering platform support modules:
+Registered platform support modules in: 0.0483433s.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Native extension for Android target not found
+Validating Project structure ... 0.000183 seconds.
+Refresh: detecting if any assets need to be imported or removed ... 
+Hashing assets ... 0.000 seconds
+  file open: 0.000 seconds (2 files)
+  file read: 0.000 seconds (0.001 MB)
+  hash: 0.000 seconds
+----- Compute hash(es) for 1 asset(s).
+
+Refresh: elapses 0.050339 seconds
+Updating Assets/Editor/AutoBuildTest.cs - GUID: c2e5b5b09d120744d9caaddc7dca0b6b...
+ done. [Time: 99.875124 ms] 
+- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+Reloading assemblies after script compilation.
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 0.39 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.50 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.759 seconds
+Initializing Unity.PackageManager (PackageManager) v2017.3.1 for Unity v2017.3.1p4
+Registering platform support modules:
+Registered platform support modules in: 0.036702s.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 0.51 ms.
+
+----- Total AssetImport time: 1.954798s, AssetImport time: 1.908793s, Asset hashing: 0.000522s [1.4 KB, 2.638419 mb/s]
+
+Warming cache for 133 main assets: 0.000260 seconds elapsed
+Initializing Unity extensions:
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'  GUID: 12fd8a0055b84bb59e84c9835a37e333
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/portable/nunit.framework.dll'  GUID: 405b9b51bb344a128608d968297df79c
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'  GUID: f70555f144d8491a825f0804e09c671c
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll'  GUID: f5f67c52d1564df4a8936ccd202a3bd8
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll'  GUID: 844f815391db42d49455cbf1a7bfc434
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'  GUID: dc443db3e92b4983b9738c1131f555cb
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll'  GUID: ed7343f30e3843b3afda8f8b02669cea
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Editor/UnityEditor.GoogleAudioSpatializer.dll'  GUID: 4a3ecb1425d14502837abea459cf2b70
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll'  GUID: 5f32cd94baa94578a686d4b9d6b660f7
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Runtime/UnityEngine.HoloLens.dll'  GUID: f7b54ff4a43d4fcf81b4538b678e0bcc
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/Editor/UnityEditor.SpatialTracking.dll'  GUID: b5da970776034f77a070d99423d68791
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll'  GUID: adebbd281f1a4ef3a30be7f21937e02f
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll'  GUID: 870353891bb340e2b2a9c8707e7419ba
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll'  GUID: 53ebcfaa2e1e4e2dbc85882cd5a73fa1
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll'  GUID: ead147da21254ff9a0a936bdd75e1680
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/Runtime/UnityEngine.GoogleAudioSpatializer.dll'  GUID: e4f4cf1b9b434137a499903a7a1d651a
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll'  GUID: 4ba2329b63d54f0187bcaa12486b1b0f
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'  GUID: 1c6d1fbb51834b64847b1b73a75bfc77
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll'  GUID: 3a84de5cd0624681b6b6dcd8921d912a
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll'  GUID: 80a3616ca19596e4da0f10f14d241e9f
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll'  GUID: c768acbc9cf24d398488bb4c93b91288
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/Editor/UnityEditor.TestRunner.dll'  GUID: 4113173d5e95493ab8765d7b08371de4
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll'  GUID: b8a0574e92bd43a59e19d6c3c6ae54c7
+ 'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
+Unloading 100 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 28.3 MB.
+System memory in use after: 28.2 MB.
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 672.
+Total: 1.571901 ms (FindLiveObjects: 0.603692 ms CreateObjectMapping: 0.021460 ms MarkObjects: 0.887343 ms  DeleteObjects: 0.055983 ms)
+
+args 0 C:/Program Files/Unity/Editor/Unity.exe
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AutoBuildTest:CMDArgsTest() (at Assets\Editor\AutoBuildTest.cs:36)
+ 
+(Filename: Assets/Editor/AutoBuildTest.cs Line: 36)
+
+args 1 -batchmode
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AutoBuildTest:CMDArgsTest() (at Assets\Editor\AutoBuildTest.cs:36)
+ 
+(Filename: Assets/Editor/AutoBuildTest.cs Line: 36)
+
+args 2 -projectPath
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AutoBuildTest:CMDArgsTest() (at Assets\Editor\AutoBuildTest.cs:36)
+ 
+(Filename: Assets/Editor/AutoBuildTest.cs Line: 36)
+
+args 3 D:/UnityAutoBuild/UnityAutoBuild
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AutoBuildTest:CMDArgsTest() (at Assets\Editor\AutoBuildTest.cs:36)
+ 
+(Filename: Assets/Editor/AutoBuildTest.cs Line: 36)
+
+args 4 -executeMethod
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AutoBuildTest:CMDArgsTest() (at Assets\Editor\AutoBuildTest.cs:36)
+ 
+(Filename: Assets/Editor/AutoBuildTest.cs Line: 36)
+
+args 5 AutoBuildTest.CMDArgsTest
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AutoBuildTest:CMDArgsTest() (at Assets\Editor\AutoBuildTest.cs:36)
+ 
+(Filename: Assets/Editor/AutoBuildTest.cs Line: 36)
+
+args 6 sss
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AutoBuildTest:CMDArgsTest() (at Assets\Editor\AutoBuildTest.cs:36)
+ 
+(Filename: Assets/Editor/AutoBuildTest.cs Line: 36)
+
+args 7 -quit
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AutoBuildTest:CMDArgsTest() (at Assets\Editor\AutoBuildTest.cs:36)
+ 
+(Filename: Assets/Editor/AutoBuildTest.cs Line: 36)
+
+args 8 -logFile
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AutoBuildTest:CMDArgsTest() (at Assets\Editor\AutoBuildTest.cs:36)
+ 
+(Filename: Assets/Editor/AutoBuildTest.cs Line: 36)
+
+args 9 AutoBuildTool/Log/CMDTest.log
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AutoBuildTest:CMDArgsTest() (at Assets\Editor\AutoBuildTest.cs:36)
+ 
+(Filename: Assets/Editor/AutoBuildTest.cs Line: 36)
+
+Batchmode quit successfully invoked - shutting down!
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.006644 seconds (Nothing changed)
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.006806 seconds (Nothing changed)
+[Package Manager] Server::Kill -- Server was shutdown
+Cleanup mono
+Exiting batchmode successfully now!
