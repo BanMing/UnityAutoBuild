@@ -10,7 +10,7 @@ import subprocess
 subprocess.call("git clean -f")
 
 # 还原修改文件
-subprocess.call("git cheackout .")
+subprocess.call("git checkout .")
 
 # 拉去
 subprocess.call("git fetch")
