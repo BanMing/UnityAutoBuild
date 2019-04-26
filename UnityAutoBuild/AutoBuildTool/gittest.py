@@ -1,8 +1,8 @@
 
-# gittest.lua
+# gittest.py
 # @Author : BanMing
 # @Date   : 2019/4/26 下午5:16:27
-# @Desc   :
+# @Desc   : 保证本地无修改
 
 import subprocess
 
