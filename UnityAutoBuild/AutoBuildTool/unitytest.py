@@ -24,8 +24,8 @@ print("begin test")
 # subprocess.call(UNITYPATH+" -projectPath "+PROJECTPATH)
 
 # 调用unity中方法
-subprocess.call(
-    UNITYPATH+" -batchmode -projectPath "+PROJECTPATH+" -executeMethod AutoBuildTest.CMDTest -quit -logFile "+PROJECTPATH+"/AutoBuildTool/Log/CMDTest1.log")
+# subprocess.call(
+#     UNITYPATH+" -batchmode -projectPath "+PROJECTPATH+" -executeMethod AutoBuildTest.CMDTest -quit -logFile "+PROJECTPATH+"/AutoBuildTool/Log/CMDTest1.log")
 # subprocess.call(
 #     UNITYPATH+" -batchmode -projectPath "+PROJECTPATH+" -executeMethod AutoBuildTest.CMDArgsTest sss -quit -logFile AutoBuildTool/Log/CMDTest.log")
 
