@@ -9,23 +9,17 @@ public class AutoBuild : MonoBehaviour
     {
         BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
         buildPlayerOptions.scenes = new[] { "Assets/Scene/dome.unity" };
-        buildPlayerOptions.locationPathName = "Android Build";
+        buildPlayerOptions.locationPathName = "Package/Android Build.apk";
         buildPlayerOptions.target = BuildTarget.Android;
         buildPlayerOptions.options = BuildOptions.None;
-
-        // BuildReport report = BuildPipeline.BuildPlayer(buildPlayerOptions);
-        // BuildSummary summary = report.summary;
-
-        // if (summary.result == BuildResult.Succeeded)
-        // {
-        //     Debug.Log("Build succeeded: " + summary.totalSize + " bytes");
-        // }
-
-        // if (summary.result == BuildResult.Failed)
-        // {
-        //     Debug.Log("Build failed");
-        // }
         var error = BuildPipeline.BuildPlayer(buildPlayerOptions);
-        UnityEngine.Debug.Log("error:" + error);
+        if (!string.IsNullOrEmpty(error))
+        {
+            UnityEngine.Debug.Log("error:" + error);
+        }
+        else
+        {
+            Debug.Log("build success!");
+        }
     }
 }
