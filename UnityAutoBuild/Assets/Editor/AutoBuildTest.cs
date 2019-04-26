@@ -1,10 +1,10 @@
 ﻿using UnityEngine;
 using UnityEditor;
 
-public class AutoBuild : MonoBehaviour
+public class AutoBuildTest : MonoBehaviour
 {
 
-    [MenuItem("Build/Build Android Test")]
+    [MenuItem("Build Test/Build Android Test")]
     static void BuildAndroidTest()
     {
         BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
@@ -21,5 +21,11 @@ public class AutoBuild : MonoBehaviour
         {
             Debug.Log("build success!");
         }
+    }
+
+    static void CMDTest()
+    {
+        System.Console.WriteLine("Console CMDTest!");
+        Debug.Log("CMDTest!");
     }
 }
