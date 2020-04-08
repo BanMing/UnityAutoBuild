@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEditor;
 
-public class AutoBuildTest : MonoBehaviour
+public class AutoBuildTest
 {
 
     [MenuItem("Build Test/Build Android Test")]
@@ -9,9 +9,10 @@ public class AutoBuildTest : MonoBehaviour
     {
         BuildPlayerOptions buildPlayerOptions = new BuildPlayerOptions();
         buildPlayerOptions.scenes = new[] { "Assets/Scene/dome.unity" };
+        PlayerSettings.applicationIdentifier = "com.test.autobuild";
         buildPlayerOptions.locationPathName = "Package/Android Build.apk";
         buildPlayerOptions.target = BuildTarget.Android;
-        buildPlayerOptions.options = BuildOptions.None;
+        buildPlayerOptions.options = BuildOptions.Il2CPP | BuildOptions.CompressWithLz4;
         var error = BuildPipeline.BuildPlayer(buildPlayerOptions);
         if (!string.IsNullOrEmpty(error))
         {
@@ -41,11 +42,19 @@ public class AutoBuildTest : MonoBehaviour
             Debug.Log("build success!");
         }
     }
+
+    /// <summary>
+    /// 直接调用调用
+    /// </summary>
     static void CMDTest()
     {
         System.Console.WriteLine("Console CMDTest!");
-        // Debug.Log("CMDTest!");
+        Debug.Log("Unity Log CMDTest!");
     }
+
+    /// <summary>
+    /// 接收参数修改
+    /// </summary>
     static void CMDArgsTest()
     {
         var args = System.Environment.GetCommandLineArgs();
