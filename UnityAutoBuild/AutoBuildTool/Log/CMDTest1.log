@@ -1,31 +1,31 @@
 
-LICENSE SYSTEM [202048 14:25:35] No start/stop license dates set
+LICENSE SYSTEM [202049 14:10:11] No start/stop license dates set
 
-LICENSE SYSTEM [202048 14:25:35] Next license update check is after 2029-09-26T01:33:06
+LICENSE SYSTEM [202049 14:10:11] Next license update check is after 2029-09-26T01:33:06
 
 Built from '2017.4/staging' branch; Version is '2017.4.27f1 (0c4b856e4c6e) revision 805765'; Using compiler version '160040219'
 OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16317 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
-[Package Manager] Server::Start -- Port 56763 was selected
+[Package Manager] Server::Start -- Port 55160 was selected
 
  COMMAND LINE ARGUMENTS:
 C:/Program Files/Unity/Editor/Unity.exe
+-quit
 -batchmode
 -projectPath
 C:/BanMingProject/UnityAutoBuild/UnityAutoBuild
 -executeMethod
 AutoBuildTest.CMDTest
--quit
 -logFile
 C:/BanMingProject/UnityAutoBuild/UnityAutoBuild/AutoBuildTool/Log/CMDTest1.log
 Successfully changed project path to: C:/BanMingProject/UnityAutoBuild/UnityAutoBuild
 C:/BanMingProject/UnityAutoBuild/UnityAutoBuild
-Loading GUID <-> Path mappings...0.000071 seconds
-Loading Asset Database...0.007419 seconds
+Loading GUID <-> Path mappings...0.000073 seconds
+Loading Asset Database...0.007339 seconds
 Audio: FMOD Profiler initialized on port 54901
-AssetDatabase consistency checks...0.041711 seconds
-Refreshing native plugins compatible for Editor in 7.14 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+AssetDatabase consistency checks...0.046620 seconds
+Refreshing native plugins compatible for Editor in 11.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.01 ms.
 DisplayProgressbar: Unity Package Manager
 [Package Manager] Resolving 4 packages:
 [Package Manager]  * Package :  com.unity.ads@2.0.8
@@ -49,73 +49,39 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/Mono/lib/mono/2.0'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/Mono/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56788
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56152
 Begin MonoManager ReloadAssembly
-Refreshing native plugins compatible for Editor in 0.44 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 4 plugins.
 Initializing Unity.PackageManager (PackageManager) v2017.4.27 for Unity v2017.4.27f1
 Registering precompiled unity dll's ...
 Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:\Program Files\Unity\Editor\Data\PlaybackEngines\windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002923 seconds.
+Registered in 0.002925 seconds.
 Registering platform support modules:
-Registered platform support modules in: 0.1163026s.
+Registered platform support modules in: 0.1169494s.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 4 plugins.
-Preloading 2 native plugins for Editor in 1.98 ms.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 4 plugins.
+Preloading 2 native plugins for Editor in 2.01 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.989 seconds
+- Completed reload, in  0.988 seconds
 Platform modules already initialized, skipping
 Begin MonoManager ReloadAssembly
 Registering precompiled user dll's ...
-Registered in 0.014463 seconds.
+Registered in 0.016681 seconds.
 Initializing Unity.PackageManager (PackageManager) v2017.4.27 for Unity v2017.4.27f1
 Registering platform support modules:
-Registered platform support modules in: 0.0885069s.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 4 plugins.
-Preloading 2 native plugins for Editor in 0.37 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.921 seconds
-Platform modules already initialized, skipping
-Validating Project structure ... 0.000460 seconds.
-Refresh: detecting if any assets need to be imported or removed ... 
-Hashing assets ... 0.001 seconds
-  file open: 0.000 seconds (2 files)
-  file read: 0.000 seconds (0.002 MB)
-  hash: 0.000 seconds
------ Compute hash(es) for 1 asset(s).
-
-Refresh: elapses 0.062204 seconds
-Server Came alive after 483.6247 ms
-Connect to CacheServer localhost:13241
-Updating Assets/Editor/AutoBuildTest.cs - GUID: c2e5b5b09d120744d9caaddc7dca0b6b...
- done. [Time: 116.799100 ms] 
-- Starting compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
-- Finished compile Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
-Reloading assemblies after script compilation.
-Begin MonoManager ReloadAssembly
-Initializing Unity.PackageManager (PackageManager) v2017.4.27 for Unity v2017.4.27f1
-Registering platform support modules:
-Registered platform support modules in: 0.0752459s.
+Registered platform support modules in: 0.0769126s.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Refreshing native plugins compatible for Editor in 0.49 ms, found 4 plugins.
-Preloading 2 native plugins for Editor in 0.34 ms.
+Preloading 2 native plugins for Editor in 0.42 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.046 seconds
+- Completed reload, in  0.958 seconds
 Platform modules already initialized, skipping
-Disconnect from CacheServer
-Refreshing native plugins compatible for Editor in 0.51 ms, found 4 plugins.
-Preloading 2 native plugins for Editor in 0.32 ms.
-
------ Total AssetImport time: 2.663589s, AssetImport time: 2.066743s, Asset hashing: 0.000765s [2.2 KB, 2.850677 mb/s]
------ Cache Server detail: CacheServerIntegrate time: 0.000000s, CacheServer download: 0.002568s [0 B, 0.000000 mb/s]
------ Cache Server detail: Total assets requested: 1, Cached Assets: 0, Not available: 0, Not supported: 1.
------ Cache Server detail: CacheMove: 0.000000s, CacheDelete: 0.000000s.
-
-Warming cache for 135 main assets: 0.000353 seconds elapsed
+Validating Project structure ... 0.000430 seconds.
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.006105 seconds (Nothing changed)
+Warming cache for 135 main assets: 0.000473 seconds elapsed
 Initializing Unity extensions:
  'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/Editor/UnityEditor.HoloLens.dll'  GUID: 12fd8a0055b84bb59e84c9835a37e333
  'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'  GUID: 6a10b2909283487f913b00d94cd3faf5
@@ -143,12 +109,12 @@ Initializing Unity extensions:
  'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll'  GUID: 4b3fa4bde7f1451a8218c03ee6a8ded8
  'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/Editor/UnityEditor.UIAutomation.dll'  GUID: b8a0574e92bd43a59e19d6c3c6ae54c7
  'C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/Editor/UnityEditor.Timeline.dll'  GUID: 7668179ede524d6396c8b7d84461ea29
-Unloading 100 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 23.7 MB.
-System memory in use after: 23.6 MB.
+Unloading 103 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 23.8 MB.
+System memory in use after: 23.7 MB.
 
-Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 676.
-Total: 1.425500 ms (FindLiveObjects: 0.254600 ms CreateObjectMapping: 0.024100 ms MarkObjects: 1.107700 ms  DeleteObjects: 0.030300 ms)
+Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 671.
+Total: 1.187800 ms (FindLiveObjects: 0.239300 ms CreateObjectMapping: 0.022600 ms MarkObjects: 0.893100 ms  DeleteObjects: 0.027100 ms)
 
 Console CMDTest!
 Unity Log CMDTest!
@@ -156,13 +122,13 @@ UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
 UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
 UnityEngine.Logger:Log(LogType, Object)
 UnityEngine.Debug:Log(Object)
-AutoBuildTest:CMDTest() (at Assets\Editor\AutoBuildTest.cs:51)
+AutoBuildTest:CMDTest() (at Assets\Editor\AutoBuildTest.cs:52)
  
-(Filename: Assets/Editor/AutoBuildTest.cs Line: 51)
+(Filename: Assets/Editor/AutoBuildTest.cs Line: 52)
 
 Batchmode quit successfully invoked - shutting down!
-Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.007907 seconds (Nothing changed)
-Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.007896 seconds (Nothing changed)
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.005876 seconds (Nothing changed)
+Refresh: detecting if any assets need to be imported or removed ... Refresh: elapses 0.006813 seconds (Nothing changed)
 [Package Manager] Server::Kill -- Server was shutdown
 Cleanup mono
 Exiting batchmode successfully now!

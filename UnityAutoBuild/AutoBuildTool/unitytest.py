@@ -23,8 +23,9 @@ print("begin test")
 # subprocess.call(UNITYPATH+" -projectPath "+PROJECTPATH)
 
 # 调用unity中方法
+print(UNITYPATH+" -batchmode -projectPath "+PROJECTPATH+" -executeMethod AutoBuildTest.CMDTest -quit -logFile "+PROJECTPATH+"/AutoBuildTool/Log/CMDTest1.log")
 # subprocess.call(
-#     UNITYPATH+" -batchmode -projectPath "+PROJECTPATH+" -executeMethod AutoBuildTest.CMDTest -quit -logFile "+PROJECTPATH+"/AutoBuildTool/Log/CMDTest1.log")
+    # UNITYPATH+" -batchmode -projectPath "+PROJECTPATH+" -executeMethod AutoBuildTest.CMDTest -quit -logFile "+PROJECTPATH+"/AutoBuildTool/Log/CMDTest1.log")
 # subprocess.call(
 #     UNITYPATH+" -batchmode -projectPath "+PROJECTPATH+" -executeMethod AutoBuildTest.CMDArgsTest sss -quit -logFile Log/CMDTest.log")
 
@@ -33,10 +34,10 @@ print("begin test")
 # subprocess.call(
 #     UNITYPATH+" -batchmode -projectPath "+PROJECTPATH+" -executeMethod AutoBuildTest.BuildAndroidTest -quit -logFile "+PROJECTPATH+"/Package/Log/CMDTest.log")
 # print(subprocess.call("git branch"))
-branchs = subprocess.call("git branch")
-
+# branchs = subprocess.call("git branch")
+# print(UNITYPATH+" -batchmode -projectPath "+PROJECTPATH+" -executeMethod Framework.BuildEditor.AutoBuild -quit -logFile "+PROJECTPATH+"/AutoBuildTool/Log/CMDTest1.log")
 print("end test")
 
-# if __name__ =='__main__':
-print(sys.argv)
-print("@@@@@@@@@@@@@")
+# # if __name__ =='__main__':
+# print(sys.argv)
+# print("@@@@@@@@@@@@@")
