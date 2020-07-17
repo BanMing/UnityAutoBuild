@@ -15,3 +15,6 @@ subprocess.call("git checkout .")
 # 拉去
 subprocess.call("git fetch")
 subprocess.call("git pull")
+
+# 获得版本
+git_latest_commit_id = subprocess.check_output("git rev-parse --short HEAD")
